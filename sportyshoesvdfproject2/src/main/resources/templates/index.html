@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Sporty Shoes</title>
+</head>
+<body>
+<h2>Sporty Shoes Homepage</h2>
+<hr>
+<p>
+    Welcome to the Sporty Shoes Home Page!
+</p>
+<form action="#" th:action="@{/logout}" method="POST">
+
+    <a th:href="@{/customerDashboard}" class="button">Customer Dashboard</a>
+    <br>
+    <a th:href="@{/adminlogin}" class="button">Admin Dashboard </a>   
+    <br>
+
+</form>
+
+
+</body>
+</html>
